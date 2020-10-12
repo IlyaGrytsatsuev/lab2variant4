@@ -15,8 +15,8 @@ int c=0;
     int num_words=0, state = 0, num_chars = 0, k ;
     printf("Enter the length: ");
     scanf("%d",&k);
-    printf("Enter the sentence:\n");
-   while ((c=getchar()) != EOF && c != '\n')
+    printf("Enter the sentence and type'=' to finish the program:\n");
+   while ((c=getchar()) != EOF && c != '=')
 {
 
     if (('a'<=c&&c<='z')||('A'<=c&&c<='Z'))
